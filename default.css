@@ -31,6 +31,7 @@ p, li, span, label, input, textarea {
 a {
     text-decoration: none;
     color: #17a2b8;
+    font-family: 'Roboto Mono', monospace;
 }
 
 ul {
@@ -265,6 +266,32 @@ h6 {
 #corner-bl {
     bottom: -5px;
     left: -5px;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+.social-links {
+    display: grid;
+    align-content: center;
+    text-align: center;
+
+    font: ;
+}
+
+#social_img {
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px){
